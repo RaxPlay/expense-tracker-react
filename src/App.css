@@ -1,0 +1,130 @@
+body{
+    display: flex;
+    justify-content: center;
+    color: white
+}
+/*For Chrome, Safari, Edge, ETC...*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input{
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: rgb(19, 19, 135);
+    border: none;
+    border-radius: 10px;   
+    padding: 5px;
+    color: white;
+}
+
+button{
+    font-size: 1.2rem;
+    padding: 5px 7px;
+    background-color: rgb(69, 69, 229);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+#get-income-form{
+    padding: 10px 15px;
+    margin: auto;
+    width: 50%;
+    transform: translateX(40%);
+    margin-top: 10%;
+    display: inline-flex;
+    border: 1px solid rgb(19, 19, 135);
+    border-radius: 10px;
+    background-color: rgb(41, 41, 173);
+}
+
+#get-income-form button{
+    position: relative;
+    transform: translateX(95px);
+}
+
+#get-income-form input {
+    background-color: rgb(19, 19, 135);
+    border: none;
+    border-radius: 10px;   
+    padding: 5px;
+    color: white;
+}
+
+.income-display p {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;    
+    margin: 50px;
+} 
+
+#add-expense-container{
+    background-color: rgb(41, 41, 173);
+    border: 1px solid rgb(19, 19, 135);
+    border-radius: 10px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+}
+
+#add-expense-container input, button{
+    margin: 10px;
+}
+
+#add-expense-container label{   
+    font-size: 1.3rem;
+}
+
+#expense-list{
+    border: 1px solid rgb(19, 19, 135);
+    border-radius: 10px;
+    background-color: rgb(41, 41, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#expense-list li{
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+#expense-list .delete-expense-btn{
+    background-color: rgb(216, 84, 84);
+}
+
+footer{   
+    justify-content: center;
+    position: relative;
+    left: 40%;
+    top: 40%;
+    font-size: 1.2rem;
+}
+
+footer i{
+    margin-left: 5px;
+
+    transition: 0.25s;
+}
+
+footer i:hover{
+    transform: scale(1.1);  
+}
+
+a .fa-github{
+    color: black;
+}
+
+a .fa-linkedin{
+    color: #007EBB;
+}
