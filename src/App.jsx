@@ -12,14 +12,9 @@ const appReducer = (state = initialState, action = {}) => {
     case 'add-expense': 
       return[...state, action.payload]
     case 'delete-expense': 
-      let setAmountRemainingFunc = () => {
-      setAmountRemaining(`Amount remaining: $${incomeValue + amountSpent}`);
-      setIncomeValue(`${incomeValue + amountSpent}`);
-        
-    }
-    return(
-      setAmountRemainingFunc()
-    )
+      return(
+        setAmountRemainingFunc()
+      )
   }
 }
 
